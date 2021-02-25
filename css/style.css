@@ -1,0 +1,248 @@
+* {
+    font-family: 'Roboto' sans-serif;
+}
+
+header {
+    position: relative;
+    height: 50px;
+}
+
+nav {
+    position: fixed;
+    background-color:#212121;
+    width: 100%;
+    height: 67px;
+    z-index: 2;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 70px;
+    margin: 0;
+    list-style-type: none;
+    align-items: center;
+    
+
+   
+}
+
+.menu .menu_item {
+    border-right: 2px dotted black;
+    padding-right: 47px;
+}
+
+.menu .menu_link {
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.subheader {
+    top: 50px;
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    background-color: rgba(0,0,0,  .6);
+     
+}
+
+.subheader .subheader_logo {
+    display: block;
+    min-width: 100%;
+    margin-top: 16px;
+  
+}
+
+.subheader .subheader_official {
+    margin-top: 6px;
+    font-size: 13px;
+    font-weight: 100;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.subheader .subheader_call {
+    margin-top: 19px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #ffffff;
+    text-align: right;
+}
+
+
+.subheader .subheader_phone {
+    display: block;
+    margin-top: 8px;
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: right;
+    line-height: 12px;
+}
+
+.subheader .subheader_btn {
+    width: 172px;
+    height: 46px;
+    box-shadow: inset 0px -3px 0 0 rgba(0, 0, 0, 0.12);
+    border: none;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 19px;
+    text-transform: uppercase;
+    border-radius: 8px;
+       
+}
+
+.promo {
+    min-height: 664px;
+    background: url('../img/bg/bg.png') center center/cover no-repeat ;
+    padding: 150px 0 130px 0;
+    
+    
+}
+
+.promo .promo_header {
+    
+    
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.promo .promo_subheader {
+    
+    font-size: 36px;
+    font-weight: 700;
+    color: #ffffff;
+    line-height:36px;
+    margin: 0;
+    margin-top: 22px;
+    text-align: center;
+}
+
+.promo .promo_descr {
+    margin-top: 23px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.33;
+    text-align: center;
+    color: #ffffff;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 118px auto;
+    width: 259px;
+    height: 63px;
+    margin: 118px 347px 0 349px;
+    box-shadow: inset 0px -4px 0 0 rgba(0, 0, 0, 0.12);
+    border: none ;
+    background-image: linear-gradient(to top, #1eacc7, #4ce2ff);
+    border-radius: 8px;
+    font-stretch: normal;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+.reasons {
+   
+    padding: 71px 0 65px 0;
+
+
+}
+
+
+.label {
+    font-size: 11px;
+    font-weight: 100;
+    text-align: center;
+    color: #ffffff;
+    margin: 0 auto;
+    width: 112px;
+    height: 24px;
+    background-color: #000000;
+
+}
+
+.title {
+    margin-top: 38px;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 700;
+    color: #222222;
+    text-transform: uppercase;
+    
+}
+
+.reasons .reasons_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+
+}
+
+.reasons .reasons_wrapper .reasons_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 113px;
+    height: 113px;
+    background-color: #1eacc7;
+    border-radius:100%;
+    margin-right: 30px;
+}
+
+.reasons .reasons_wrapper .reasons_descr {
+
+    width: 341px;
+}
+
+.reasons .reasons_wrapper .reasons_descr .reasons_subtitle {
+    line-height: 1.4;
+    font-size: 17px;
+    font-weight: 400;
+    color: #1eacc7;
+    
+}
+
+.reasons .reasons_wrapper .reasons_text {
+    font-size: 15px;
+    font-weight: 300;
+    color: #202020;
+    line-height: 1.4;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
